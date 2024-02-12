@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Best Online Food Delivery Service in India | OnlineMeals.com </title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" media="screen and (max-width:1170px)" href="phone.css">
+    <!-- <link rel="stylesheet" media="screen and (max-width:1170px)" href="phone.css"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,11 +16,12 @@
 
 
 <body>
-    <nav id="navbar">
-        <div id="logo">
-            <img src="photos\logo.png" alt="MyOnlineMeal.com">
-        </div>
-        <ul>
+    <nav id="navbar" class="navbar-list background h-nav-resp">
+
+        <ul class="nav-list v-class-resp">
+            <div id="logo">
+                <img src="photos\logo.png" alt="MyOnlineMeal.com">
+            </div>
             <!-- li.item{<a></a>}*5  -->
             <li class="item"><a href="#">Home</a></li>
             <li class="item"><a href="#">Service</a></li>
@@ -28,6 +29,11 @@
             <li class="item"><a href="#">Contact Us</a></li>
 
         </ul>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
 
     </nav>
     <section id="home">
@@ -110,11 +116,12 @@
     </section>
 
     <footer>
-        <div class="center">
+        <div class="center copyright">
             Copyright &copy; www.myOnlineMeal.com. All rights reserved !
         </div>
 
     </footer>
+    <script src="resp.js"></script>
 </body>
 
 </html>
