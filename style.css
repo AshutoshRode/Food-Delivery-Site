@@ -59,7 +59,7 @@ html {
     border-radius: 22px;
     text-decoration: none;
     font-size: 25px;
-    margin: 36px;
+    margin: 25px;
 }
 
 #navbar ul li a:hover {
@@ -280,7 +280,8 @@ footer {
 
     #home p {
 
-        font-size: 13px;
+        font-size: 17px;
+        color: #a8f50a;
     }
 
     #services .box img {
@@ -336,5 +337,6 @@ footer {
 
     #navbar ul li a {
         margin: auto;
+        text-align: center;
     }
 }
